@@ -47,29 +47,6 @@ class WelcomeScreen extends StatelessWidget {
                 SizedBox(
                   height: 20,
                 ),
-                RegisterLoginItem(
-                  title: "Sign in with Google",
-                  icon: Icons.g_mobiledata,
-                  onTap: () => Navigator.pushNamed(context, '/register'),
-                ),
-                SizedBox(
-                  height: 20,
-                ),
-                RegisterLoginItem(
-                  title: "Sign in with Apple",
-                  icon: Icons.apple,
-                  onTap: () => Navigator.pushNamed(context, '/register'),
-                ),
-                SizedBox(
-                  height: 20,
-                ),
-                Center(
-                  child: Text(
-                    "OR",
-                    style: TextStyle(color: Colors.white),
-                  ),
-                ),
-                Divider(),
                 SizedBox(
                   height: 20,
                 ),
